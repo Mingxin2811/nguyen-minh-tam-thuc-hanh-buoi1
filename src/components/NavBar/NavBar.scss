@@ -1,0 +1,34 @@
+.header-menu {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+.header-menu .header-item {
+  margin-right: 50px;
+}
+
+.header-menu li Link {
+  color: #303030;
+  position: relative;
+}
+
+.list {
+  list-style-type: none;
+  background-color: #fff;
+  padding: 15px;
+  margin-left: 0;
+  border-radius: 8px;
+  position: fixed;
+  top: 54px;
+  left: 323px;
+
+}
+
+.list .list-item {
+  margin-right: 0;
+  margin-bottom: 5px;
+  color: #303030;
+}
+.list .list-item:hover{
+  background-color: #f0f0f0;
+}

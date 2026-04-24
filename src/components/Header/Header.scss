@@ -1,0 +1,78 @@
+.header {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 20px;
+  background: #F1F1F0;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.header .header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .header-wrap .header-logo {
+  font-size: 40px;
+  color: #111111;
+
+}
+
+.header .header-wrap .header-menu {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .header-wrap .header-menu .header-item {
+  margin-right: 50px;
+}
+
+.header .header-wrap .header-menu li a {
+  color: #303030;
+  position: relative;
+}
+
+.list {
+  list-style-type: none;
+  background-color: #fff;
+  padding: 15px;
+  margin-left: 0;
+  border-radius: 8px;
+  position: fixed;
+  top: 54px;
+  left: 323px;
+
+}
+
+.list .list-item {
+  margin-right: 0;
+  margin-bottom: 5px;
+  color: #303030;
+}
+.list .list-item:hover{
+  background-color: #f0f0f0;
+}
+
+.header .header-wrap .header-right {
+  display: flex;
+}
+
+.header .header-wrap .header-right a {
+  color: #303030;
+}
+
+.header .header-wrap .header-right a:hover {
+  color: #000;
+}
+
+.header .header-wrap .header-right .header-cart {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.header .searchIcon {
+  cursor: pointer;
+  font-size: 25px;
+}

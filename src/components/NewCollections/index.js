@@ -1,3 +1,4 @@
+import './NewCollections.scss';
 function NewCollections() {
     return (
         <>

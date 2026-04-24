@@ -1,0 +1,59 @@
+.newCollections {
+  background: #F1F1F0;
+}
+
+.newCollections .newCollections-header {
+  padding-top: 70px;
+  padding-bottom: 50px;
+  text-align: center;
+  font-family: "Marcellus", serif;
+  color: #111111;
+}
+
+.newCollections .newCollections-header .newCollections-label {
+  font-size: 72px;
+  font-weight: 200;
+}
+
+.newCollections .newCollections-header .newCollections-desc {
+  font-size: 20px;
+  color: #8F8F8F;
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.newCollections .newCollections-boxes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.newCollections .newCollections-boxes .box-item {
+  width: 30%;
+}
+
+.newCollections .newCollections-boxes .box-item img {
+  aspect-ratio: 4/5;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 8px;
+  transition: all 0.6s;
+}
+
+.newCollections .newCollections-boxes .box-item img:hover {
+  transform: scale(0.9);
+}
+
+.newCollections .newCollections-boxes .box-item .box-label {
+  font-size: 30px;
+  font-weight: 350;
+}
+
+.newCollections .newCollections-boxes .box-item .box-desc {
+  font-size: 18px;
+  color: #8F8F8F;
+}
+
+.newCollections .newCollections-boxes .box-item .box-discover a {
+  color: #000;
+}
