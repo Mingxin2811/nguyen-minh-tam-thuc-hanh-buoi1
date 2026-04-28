@@ -2,21 +2,21 @@ import './App.css';
 import Home from './pages/Home/index.js';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import AboutUs from './pages/AboutUs/index.js';
-import Navbar from './components/NavBar/index.js';
+// import Navbar from './components/NavBar/index.js';
 
 function App() {
   return (
     <>
     <BrowserRouter>
-     <Navbar />
-      <div style={{ padding: '20px' }}>
-        {/* Khai báo các đường dẫn URL */}
+     {/* <Navbar /> */}
+      <div>
         <Routes>
-          {/* Khi URL là "/", hiển thị component Home */}
           <Route path="/" element={<Home />} />
-          
-          {/* Khi URL là "/about-us", hiển thị component AboutUs */}
-          <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/shop" element={<Home />}  />
+          <Route path="/blogs" element={<Home />}  />
+          <Route path="/pages" element={<Home />}  />
+          <Route path="/contact" element={<Home />}  />
+          <Route path="/about" element={<AboutUs />}  />    
         </Routes>
       </div>
     </BrowserRouter>
